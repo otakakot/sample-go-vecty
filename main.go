@@ -31,11 +31,6 @@ func (p *PageView) Render() vecty.ComponentOrHTML {
 			&components.Image{
 				Src: "https://go.dev/doc/gopher/frontpage.png",
 			},
-			&components.Image{
-				Src:    "/public/profile.png",
-				Widch:  "100px",
-				Height: "100px",
-			},
 			vecty.Text("Hello Vecty!"),
 		),
 		&components.Footer{},
